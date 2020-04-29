@@ -3,7 +3,8 @@ package fr.selfmed.test.services;
 import org.springframework.stereotype.Service;
 
 @Service
-public class XmlInputService {
+public class XmlInputService implements IXmlInputService {
+    @Override
     public String getXmlInput() {
         return "<root>\n" +
                 "\t<transaction id=\"127\" date=\"2019-07-26\">\n" +
