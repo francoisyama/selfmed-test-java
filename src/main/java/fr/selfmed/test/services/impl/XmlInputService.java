@@ -1,5 +1,6 @@
-package fr.selfmed.test.services;
+package fr.selfmed.test.services.impl;
 
+import fr.selfmed.test.services.api.IXmlInputService;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,5 +1,4 @@
-package fr.selfmed.test.services;
-
+package fr.selfmed.test.services.api;
 
 import org.springframework.stereotype.Service;
 
@@ -9,4 +8,5 @@ import java.io.IOException;
 public interface IExternalApiSimulatorService {
 
     String callApi(String uri) throws IOException;
+
 }
